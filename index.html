@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<title>TOURISTRY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}. OOOOOOOO_O)Oppppp---
+#myDiv {
+  display: none;
+  text-align: center;
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #000000;
+  border-radius: 50%;
+  border-top: 16px solid #FDE74C;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("gameathon.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.w3-top{
+ color: yellow;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+
+<div id="myDiv">
+  <!--Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-yellow w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">
+    TOURISTRY
+    </a>
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#hotels" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOTELS</a>
+      <a href="#holiday packages" class="w3-bar-item w3-button"><i class="fa fa-th"></i> HOLIDAY PACKAGES ON SALE</a>
+      <a href="#book" class="w3-bar-item w3-button"><i class="fa fa-th"></i> BOOK</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#hotels" onclick="w3_close()" class="w3-bar-item w3-button">HOTELS</a>
+  <a href="#holiday packages on sale" onclick="w3_close()" class="w3-bar-item w3-button">HOLIDAY PACKAGES ON SALE</a>
+  <a href="#book" onclick="w3_close()" class="w3-bar-item w3-button">BOOK</a>
+</nav>
+
+<!-- Header with full-height image -->
+<div class="bgimg-1" id="home">
+  <img src="100.jpg" style="width: 100%;">
+</div>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:64px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE TOURISTRY</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:0px;">
+      <p>Domestic holidays for all your moods
+        Need help in getting a perfect travel experience in India? TOURISTRY has curated several travel packages covering some of the most popular holiday destinations for you!
+        
+        The wide range of tours offered at TOURISTRY promise to render you the best of travel experiences. Whether you are looking for handcrafted honeymoon holidays, pre-planned road trips, thrilling treks, weekend getaways, or a pilgrimage tour with family, get to browse according to your choice. TOURISTRY also understands the needs of a budget traveller, which is why low-budget holidays and pocket-friendly escapades are always on. Enjoying holidays in India was never as easy as it is now at TOURISTRY. <br>
+        Happy Vacations! </p>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="p2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="m.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="nia.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="maha.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+
+<div class="w3-container w3-row w3-center w3-hover-grey w3-black w3-padding-32">
+  <p>Attracting Packages starts at</p>
+  <div class="w3-quarter w3-hover-opacity ">
+
+    <span class="w3-xxlarge">Rs.60,000</span>
+    <br>GREECE
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">Rs.45,000</span>
+    <br>MALDIVES
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">Rs.45,000</span>
+    <br>ISTANBUL
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">Rs.30,000</span>
+    <br>BALI
+  </div>
+</div>
+<!-- Team Section -->
+<div class="w3-container" style="padding:64px 16px" id="hotels">
+  <h3 class="w3-center">LUXURY HOTELS</h3>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>W Hotel Goa</h3>
+          <img src="goa.jpg" width="100%">
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>Lake Palace Udaipur</h3>
+          <img src="udaipur.jpg" width="100%">
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>Mutiara Bali</h3>
+          <img src="bali.jpg" width="100%">
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>Disneyland Paris</h3>
+          <img src="paris.jpg" width="100%">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container" style="padding:64px 16px" id="HOLIDAY PACKAGES ON SALE">
+  <h3 class="w3-center">HOLIDAY PACKAGES ON SALE</h3>
+  <img src="ack.jpg" style="width: 50%">
+  <img src="sikkim.jpg" style="width: 40%">
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:64px 16px" id="book">
+  <h3 class="w3-center">BOOK</h3>
+  <p class="w3-center w3-large">Explore the WORLD</p>
+  <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-yellow w3-xxlarge w3-margin-right"></i>DELHI</p>
+      <p><i class="fa fa-phone fa-fw w3-text-yellow w3-xxlarge w3-margin-right"></i> Phone: 9652640549</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-yellow w3-xxlarge w3-margin-right"> </i> Email: touristry@gmail.com</p>
+    </div><br>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-hover-yellow" type="text" placeholder="Name" style="color: black" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-hover-yellow" type="text" placeholder="Email" style="color: black" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-hover-yellow" type="text" placeholder="Destination" style="color: black" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-hover-yellow" type="text" placeholder="From Date" style="color: black" required name="Message"></p>
+      <p><input class="w3-input w3-padding-16 w3-hover-yellow" type="text" placeholder="To Date" style="color: black" required name="Message"></p>
+      <p><input class="w3-input w3-padding-16 w3-hover-yellow" type="text" placeholder="Select package" style="color: black" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-black w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> BOOK NOW
+        </button>
+      </p>
+    </form>
+    </div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Designed and Developed by TEJA</p>
+  </footer>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+  var mySidebar = document.getElementById("mySidebar");
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+<script>
+  var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+
+
+</body>
+</html>
